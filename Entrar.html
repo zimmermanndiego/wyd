@@ -1,0 +1,176 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><!-- x -->
+	<html class="no-js" lang="en">
+<!--<![endif]-->
+
+
+<!-- Mirrored from www.warzone.com.br/Entrar by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Mar 2015 23:44:12 GMT -->
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+
+<title>WarZone - Login</title>
+<meta name="description" content="Um jogo aluscinante em mundo aberto num repleto apocalipse zombie. Totalmente grátis no estilo MMO"/>
+<meta name="keywords" content="WarZone, WarZ, Infestation, WarZombie, InfectZ, Lastday, The WarZ, DayZ, H1Z1, InfectionMMO">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--[if lt IE 9]>
+	<link rel="stylesheet" href="css/rs3/font_fallback-0.css" type="text/css" media="all" />
+<![endif]-->
+<!--[if gt IE 8]><!--><!-- x -->
+	<link rel="stylesheet" href="css/rs3/font_base64-0.css" type="text/css" media="all" />
+<!--<![endif]-->
+
+<!-- alert -->
+<link rel="stylesheet" type="text/css" href="lib/sweet-alert.css">
+
+<link href="prod/css/main-12.css" rel="stylesheet" />
+<link rel="shortcut icon" href="img/global/favicon.ico">
+<script src="../ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src='js/rs3/recaptcha.js'></script>
+<script src='js/rs3/functions.js'></script>
+
+<!-- alert -->
+<script src="lib/sweet-alert.min.js"></script>
+
+</head>
+
+<body id="support" class="support en">
+<div class="stickyWrap">
+
+<header class="header" role="banner">
+	<div class="header__bg">
+		<div class="header__container">
+		<div class="header-second">
+		<div class="header-table">
+		<a class="header-second__logo" href="Inicio.html">
+			<img class="header-second__logo-image" src="img/rs3/global/header_logo.png" title="WarZone MMO" alt="WarZone MMO" />
+		</a>
+		<nav class="main-nav" id="main-nav">
+		<ul class="main-nav__list">
+		<li class="main-nav__item main-nav__item--news">
+			<a class="main-nav__heading" href="Inicio.html">Início</a>
+		</li>
+		<li class="main-nav__item main-nav__item--group main-nav__item--game">
+		<a href="#!" class="main-nav__heading">Tutoriais<span class="main-nav__expander"></span></a>
+		<ul class="main-nav__group">
+			<li class="main-nav__group-item"><a class="main-nav__group-item-link" href="Instalando.html">Instalando o Jogo</a></li>
+			<li class="main-nav__group-item"><a class="main-nav__group-item-link" href="ModosDeJogo.html">Modos de Jogo</a></li>
+			<li class="main-nav__group-item"><a class="main-nav__group-item-link" href="#!">Problemas Frequêntes</a></li>
+		</ul>
+		<li class="main-nav__item main-nav__item--group main-nav__item--community">
+		<a href="#!" class="main-nav__heading">Comunidade<span class="main-nav__expander"></span></a>
+		<ul class="main-nav__group">
+			<li class="main-nav__group-item"><a class="main-nav__group-item-link" href="Download.html">Downloads</a></li>
+			<li class="main-nav__group-item"><a class="main-nav__group-item-link" href="Cadastro.html">Cadastro</a></li>
+			<li class="main-nav__group-item"><a class="main-nav__group-item-link" href="#!">Mercado Online</a></li>
+			<li class="main-nav__group-item"><a class="main-nav__group-item-link" href="#!">Clãns</a></li>
+			<li class="main-nav__group-item"><a class="main-nav__group-item-link" href="#!">Campeonatos</a></li>
+		</ul>
+		</li>
+		<li class="main-nav__item main-nav__item--forums">
+		<a class="main-nav__heading" href="../forum.warzone.com.br/index.html" target="_blank">Fórum</a>
+		</li>
+		<li class="main-nav__item main-nav__item--group main-nav__item--shop">
+		<a href="#!" class="main-nav__heading">Shop<span class="main-nav__expander"></span></a>
+		<ul class="main-nav__group">
+			<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-membe"><a class="main-nav__group-item-link" href="Premium.html">Conta Prêmium</a></li>
+			<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-treas"><a class="main-nav__group-item-link" href="GameCoins.html">GameCoins (GC)</a></li>
+			<li class="main-nav__group-item main-nav__group-item--shop main-nav__group-item--shop-solom"><a class="main-nav__group-item-link" href="#!">Personagens</a></li>
+		</ul>
+		</li>
+		<li class="main-nav__item main-nav__item--play">
+							<a id="play" class="main-nav__heading" href="Entrar.html">LOGIN</a>
+					</li>
+		</ul>
+		</nav>
+		</div>
+		</div>
+		</div>
+	</div>
+</header>
+<div class="banner">
+<div class="inner">
+	<img src="img/rs3/banners/generic.jpg"/>
+</div>
+</div>
+<div class="contents">
+<div class="main">
+<h1 class="title"><span>Painel do Usuário</span></h1>
+<ul class="breadcrumb" itemprop="breadcrumb">
+<li><a href="index.html">Início</a></li>
+<li>Entrar</li>
+</ul>
+<section class="suppLandingSection secondSuppLandingSection">
+<div class="supportAbstractContainer">
+<div class="supportAbstract">
+<div>
+
+	<div class="middlePart">
+	<div class="LoginForm" autocomplete="off">
+	<div class="login">
+		<input type="text" id="usermail" placeholder="Email/Login" class="Username placeholder NoPlaceholder text" title="Email" name="usermail"/>
+		<input type="password" id="password" placeholder="Password" class="Password placeholder NoPlaceholder password" name="password" title="Password" maxlength="20"/>
+	</div>
+	</div>
+	</div>
+	<br>
+
+	<div class="btnWrap " id="globalLoginFormLogIn">
+	<div class="btn">
+	<div class="btnRight">
+	<input type="submit" value="LOGIN NOW" id="btnLogin" name="btnLogin" />
+	</div>
+	</div>
+	</div>
+
+</div>
+
+<div id="resultado"></div>
+
+</div>
+
+<div class="supportAbstract">
+
+<div>
+
+	<div class="middlePart">
+	<div class="LoginForm" autocomplete="off">
+	<div id="reCAPTCHA"></div>
+	<br>
+	</div>
+	<script src="../www.google.com/recaptcha/api85f1.js?onload=onloadCallback&amp;render=explicit" async defer></script>
+	</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="suppLandingSection">
+<h2 class="serviceStatusTitle">Atenção!</h2>
+<ul>
+<li><span>Nenhum Administrador ou DEV vai pedir sua senha em qualquer local sendo ele jogo, redes sociais ou ticket de suporte.</span></li>
+<li><span>Caso você erre sua senha por 5 vezes consecutivas, você vai precisar reconfirmar sua conta atráves do seu e-mail.</span></li>
+<li><span>Você é responsável por sua conta, não entregue sua senha para ninguém.</span></li>
+<li><span>Você pode usar seu e-mail ou login para acessar o site ou o jogo.</span></li>
+<li><span>Você esqueceu sua senha? <a href="RecuperarSenha.html">Clique aqui</a> para recuperar.</span></li>
+<li><span>Você esqueceu seu e-mail / login? Entre em contato pelo <a href="../www.fb.com/groups/warzone.oficial/index.html" target="_blank">Grupo</a> para recuperar.</span></li>
+</ul>
+</section>
+</div>
+</div>
+</div>
+<footer class="footer" role="contentinfo">
+<div class="footer__inner">
+<p class="footer__paragraph">This website and its contents are copyright &copy; 2014 - 2015 WZ Ltd.<br>
+Qualquer uso indireto ou direto deste jogo foi validado por nossos <a id="footerTermsLink" href="TermosDeUso.html" class="ext footer__paragraph__link" data-title="footer_terms">TERMOS DE USO.</a></p>
+
+</div>
+</footer></body>
+
+
+<!-- Mirrored from www.warzone.com.br/Entrar by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 09 Mar 2015 23:44:13 GMT -->
+</html>
